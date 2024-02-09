@@ -8,13 +8,15 @@ const sentence = 'I am a good and hard working person';
 // const array = sentence.split(' ');
 
 
-
-
-
 const array = sentence.split('a');
 
+const friendStr = 'Rahim, fahim, washim, shihab';
+const friends = friendStr.split(',');
 
 
+console.log(friends);
 
-
-console.log(array);
+const realFriend = ['Rahim', 'fahim', 'washim', 'shihab' ];
+console.log(realFriend.join(''));
+console.log(realFriend.join('|'));
+console.log(realFriend.join('-'));
