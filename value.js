@@ -11,5 +11,10 @@ const person = {
 person.salary = 30000;
 // update age
 person['age'] = 26;
+// update fav places
+person['fav places'] = ['maldives', 'bali', 'pataya'];
+// console.log(person);
 
+const proFName = 'profession';
+person[proFName] = 'devops';
 console.log(person);

@@ -20,3 +20,6 @@ const income = person['salary'];
 
 const favPlace = person['fav places'];
 console.log(favPlace);
+
+const keyName = 'profession';
+console.log(person[keyName]);
