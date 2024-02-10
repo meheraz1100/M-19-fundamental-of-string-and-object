@@ -6,13 +6,22 @@ const college = {
         color : "blue",
         result : {
             gpa : 5,
-            info : {
-                marks : 100,
-                grade : 'A'
-            }
+            merit : 'top'
         }
     }
 }
 
-console.log(college.unique);
-console.log(college.unique.result.gpa);
+// console.log(college.unique);
+// console.log(college.unique.result.gpa);
+
+// update merit
+college['unique'].result.merit = 'top notch';
+console.log(college.unique.result.merit);
+
+// update events
+college.events[1] = '16 december';
+console.log(college.events[1]);
+
+// delete class 
+delete college.class;
+console.log(college);
